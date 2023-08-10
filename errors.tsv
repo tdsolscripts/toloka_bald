@@ -1,0 +1,19 @@
+00025b8fd7--6482e60ff46eaf089535090d	Traceback (most recent call last):
+  File "/var/folders/gj/6_w_qqnx5nx4vm3c1j8gth4w0000gn/T/ipykernel_1821/1815638346.py", line 204, in main
+    message_send(assignment_data, reject_message, reject_topic, worker_id, refusal_reassons_column, check_working_df)
+  File "/var/folders/gj/6_w_qqnx5nx4vm3c1j8gth4w0000gn/T/ipykernel_1821/1815638346.py", line 84, in message_send
+    reject_reasons_for_html = reject_reasons_for_html_maker(image_and_reject_reason_dict, refusal_reassons_column, assignment_data)
+  File "/var/folders/gj/6_w_qqnx5nx4vm3c1j8gth4w0000gn/T/ipykernel_1821/1815638346.py", line 123, in reject_reasons_for_html_maker
+    reject_reason_text = working_excel.loc[working_excel['refusal_reasons_number'].apply(str) == str(float(reject_reason)), refusal_reassons_column].values[0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+
+00025b8fd7--6482e5e845a04543219aa5a2	Traceback (most recent call last):
+  File "/var/folders/gj/6_w_qqnx5nx4vm3c1j8gth4w0000gn/T/ipykernel_1821/1815638346.py", line 204, in main
+    message_send(assignment_data, reject_message, reject_topic, worker_id, refusal_reassons_column, check_working_df)
+  File "/var/folders/gj/6_w_qqnx5nx4vm3c1j8gth4w0000gn/T/ipykernel_1821/1815638346.py", line 84, in message_send
+    reject_reasons_for_html = reject_reasons_for_html_maker(image_and_reject_reason_dict, refusal_reassons_column, assignment_data)
+  File "/var/folders/gj/6_w_qqnx5nx4vm3c1j8gth4w0000gn/T/ipykernel_1821/1815638346.py", line 123, in reject_reasons_for_html_maker
+    reject_reason_text = working_excel.loc[working_excel['refusal_reasons_number'].apply(str) == str(float(reject_reason)), refusal_reassons_column].values[0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+
+00025b8fd7--6482e6557d619d3858b46630	[Errno 17] File exists: 'bald_sets/12.6.2023/00025b8fd7--6482e6557d619d3858b46630'
